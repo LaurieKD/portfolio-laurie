@@ -66,7 +66,7 @@ footer {
 
 .section-1 {
 	padding: 100px 0px;
-	max-width: 800px;
+	max-width: 1000px;
 	display: block;
 	margin: 0 auto;
 }
@@ -80,10 +80,31 @@ footer {
 
 .section-3 {
 	padding: 20px 0px;
+	display: block;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.intro {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.laurie {
+	max-width: 300px;
+}
+
+.laurie-block {
+	text-align: right;
 }
 
 .about-me {
-	max-width: 800px;
+	max-width: 1000px;
+	text-align: left;
+}
+
+.about-text {
+	padding-right: 50px;
 }
 
 .btn-light {
@@ -112,18 +133,28 @@ footer {
 }
 
 .btn-contact {
-	display: block;
-	margin: 30px auto;
-	max-width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-projects {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.btn-github {
+	background-color: var(--background-color-main);
+	box-shadow: none;
 }
 
 .project {
 	margin-bottom: 50px;
+	padding: 0px;
 }
 
 .project-image {
 	border-radius: 4px;
-	box-shadow: 0px 0px 5px grey;
+	box-shadow: 0px 0px 15px grey;
 }
 
 .skill {
