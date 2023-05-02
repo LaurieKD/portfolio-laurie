@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #e4b363;
-	--secondary-color: #ef6461;
+	--secondary-color: #454026;
 	--background-color-special: #e0dfd5;
 	--background-color-main: #e8e9eb;
 	--text-color: #313638;
@@ -30,6 +30,7 @@ h1 {
 	font-weight: 500px;
 	font-size: 56px;
 	margin-bottom: 20px;
+	color: var(--secondary-color);
 }
 
 h2 {
@@ -118,6 +119,7 @@ footer {
 
 .btn-light:hover {
 	background-color: var(--secondary-color);
+	color: var(--background-color-special);
 }
 
 .btn-outline-primary {
@@ -163,7 +165,6 @@ footer {
 
 .mail-link {
 	color: var(--secondary-color);
-	text-decoration: none;
 }
 
 footer .mail-link {
@@ -173,19 +174,14 @@ footer .mail-link {
 
 footer .social-link {
 	color: var(--secondary-color);
-	background: var(--background-color-main);
-	padding: 8px 16px;
-	border-radius: 4px;
-	text-align: center;
 	text-decoration: none;
-	margin: 20px;
-	font-size: 20px;
+	margin-right: 20px;
+	font-size: 35px;
 	transition: all 100ms ease-in-out;
 }
 
 footer .social-link:hover {
-	color: var(--text-color);
-	background: var(--primary-color);
+	color: var(--primary-color);
 }
 
 .contact-box {
@@ -193,15 +189,6 @@ footer .social-link:hover {
 	padding: 30px 0px;
 	margin-bottom: 30px;
 	border-radius: 4px;
-}
-
-.footer-button {
-	background-color: var(--secondary-color);
-	margin: 0px;
-}
-
-.footer-button:hover {
-	background-color: var(--primary-color);
 }
 
 @media (max-width: 767px) {
@@ -215,10 +202,22 @@ footer .social-link:hover {
 	h3 {
 		font-size: 18px;
 	}
-
-	.btn-projects {
+	.btn-contact {
 		display: block;
 		margin: 0 auto;
 		max-width: 50%;
+		margin-bottom: 30px;
 	}
+	.laurie-block {
+		text-align: center;
+	}
+	.laurie {
+		max-width: 200px;
+	}
+	.about-text {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 390px) {
 }
